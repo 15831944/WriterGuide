@@ -205,7 +205,10 @@
     <ResourceCompile Include="WriterGuide.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="City_and_country_names.xls" />
+    <Text Include="City_and_country_names.xls">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Text>
     <None Include="res\WriterGuide.rc2" />
   </ItemGroup>
   <ItemGroup>

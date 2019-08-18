@@ -16,6 +16,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
+    <Text Include="City_and_country_names.xls" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WriterGuide.h">
@@ -54,7 +55,6 @@
     <None Include="res\WriterGuide.rc2">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="City_and_country_names.xls" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\WriterGuide.ico">
