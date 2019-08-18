@@ -205,7 +205,7 @@
     <ResourceCompile Include="WriterGuide.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\Temp\City_and_country_names.xls" />
+    <None Include="City_and_country_names.xls" />
     <None Include="res\WriterGuide.rc2" />
   </ItemGroup>
   <ItemGroup>

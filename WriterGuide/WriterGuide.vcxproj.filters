@@ -54,7 +54,7 @@
     <None Include="res\WriterGuide.rc2">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="..\..\..\Temp\City_and_country_names.xls" />
+    <None Include="City_and_country_names.xls" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\WriterGuide.ico">
